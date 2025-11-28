@@ -1,0 +1,22 @@
+{
+  "signInLabel": {
+    "email": "E-post",
+    "password": "Passord"
+  },
+  "signInPageConstants": {
+    "signIntoYourAccount": "Logg inn på kontoen din",
+    "enterYourEmailAndPasswordToLogIn": "Skriv inn e-post og passord for å logge inn.",
+    "logIn": "Logg inn",
+    "doNotHaveAnAccount": "Har du ikke en konto?",
+    "signUp": "Registrer deg",
+    "forgotPassword": "Glemt passord?",
+    "adminAccessDenied": "Tilgang nektet. Bare brukere kan logge inn.",
+    "userRole": "user"
+  },
+  "validation": {
+    "required": "{{field}} er påkrevd.",
+    "format": "{{field}} er ugyldig.",
+    "placeholder": "Skriv inn {{field}}"
+  }
+}
+

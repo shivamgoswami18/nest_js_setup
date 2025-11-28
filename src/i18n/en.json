@@ -1,0 +1,22 @@
+{
+  "signInLabel": {
+    "email": "Email",
+    "password": "Password"
+  },
+  "signInPageConstants": {
+    "signIntoYourAccount": "Sign into your account",
+    "enterYourEmailAndPasswordToLogIn": "Enter your email and password to log in.",
+    "logIn": "Log In",
+    "doNotHaveAnAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "adminAccessDenied": "Access denied. Only users can login.",
+    "userRole": "user"
+  },
+  "validation": {
+    "required": "{{field}} is required.",
+    "format": "{{field}} is invalid.",
+    "placeholder": "Enter {{field}}"
+  }
+}
+
