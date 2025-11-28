@@ -14,24 +14,3 @@ export const CelebrationPhotoIcon = () => (
     />
   </svg>
 );
-
-export const MarketplaceLogo = () => (
-  <svg
-    width="133"
-    height="32"
-    viewBox="0 0 133 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <text
-      x="10"
-      y="22"
-      fontSize="24"
-      fontWeight="bold"
-      fill="black"
-      fontFamily="Arial, sans-serif"
-    >
-      Marketplace
-    </text>
-  </svg>
-);

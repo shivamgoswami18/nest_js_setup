@@ -30,8 +30,8 @@ module.exports = {
         extraBold: "700",
       },
       colors: {
-        primary: "#5015FF",
-        light: "#f4f3ec",
+        primary: "#208876",
+        light: "#dad6ff",
         black: "#000000",
         white: "#FFFFFF",
         gray: "#6C7278",

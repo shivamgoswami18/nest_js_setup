@@ -17,9 +17,10 @@ import {
 import { toast } from "react-toastify";
 import { emailRegex } from "@/components/constants/Validation";
 import { routePath } from "@/components/constants/RoutePath";
-import { MarketplaceLogo } from "@/assets/icons/CommonIcons";
 import { jwtDecode } from "jwt-decode";
 import { useTranslation } from "@/i18n/i18n";
+import logo from "../../assets/images/logo.png";
+import Image from "next/image";
 
 interface JWTPayload {
   role: string;
@@ -86,9 +87,7 @@ const SignIn = () => {
       <div className="w-full flex items-center justify-center px-6 sm:px-12 py-5">
         <div className="w-full max-w-md">
           <div className="mb-[30px] text-black">
-            <p className="mb-[40px]">
-              <MarketplaceLogo />
-            </p>
+            <Image src={logo} alt="logo" height={100} />
             <p className="text-titleLg font-semiBold mb-[19px] leading-[100%] tracking-[-0.05rem]">
               {t("signInPageConstants.signIntoYourAccount")}
             </p>
